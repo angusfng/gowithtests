@@ -11,6 +11,7 @@ func Sum(numbers []int) int {
 }
 
 func SumAll(numbersToSum ...[]int) []int {
+	// sums := make([]int, len(numbersToSum))
 	var sums []int
 
 	for _, numbers := range numbersToSum {
